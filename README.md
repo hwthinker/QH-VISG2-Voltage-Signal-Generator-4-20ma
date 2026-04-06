@@ -102,4 +102,8 @@
 
 ### Manual
 
--  [Manual-datasheet](https://github.com/hwthinker/QH-VISG2-Voltage-Signal-Generator-4-20ma/blob/master/FIT0778manual-EN.pdf) 
+- [Manual-datasheet](https://github.com/hwthinker/QH-VISG2-Voltage-Signal-Generator-4-20ma/blob/master/FIT0778manual-EN.pdf) 
+
+- https://youtu.be/YmO9n83lYsA?si=YuJqHsurV0KSmtP5&t=314
+
+  
