@@ -57,13 +57,49 @@
 ### Parameter Teknis Utama:
 
 - **Konsumsi Daya:** 1W (tanpa charge) / 4W (saat charge).
+
 - **Output Tegangan:** ±10V (Akurasi 0.01V, Error 0.5% bisa dikalibrasi).
+
 - **Output Arus:** 0-22mA (Akurasi 0.01mA, Error 0.5% bisa dikalibrasi).
+
 - **Resistor Sampling Arus:** 10-500 ohm.
+
 - **Tampilan:** 4 digit (dua angka di belakang koma).
+
 - **Suhu Kerja:** 0-40°C, kelembapan < 80%.
-- 
+
+![img](./assets/2023-01-29_142624.jpg)
+
+**1.Voltage Setting** 
+
+| Number    | Description                             | Note                                                         | Default |
+| --------- | --------------------------------------- | ------------------------------------------------------------ | ------- |
+| F001      | Adjust Mode                             | 0:Coarse 1:Fine 2: Point Mode (Need to set F100 > 0)         | 0       |
+| F002      | Output Mode                             | 0:±10V 1:±5V 2:0-10V 3:2-10V 4:0-5V 5:1-5V 6:0-3.3V 7:0-2.5V 8:0-1V 9:-10V-0V | 2       |
+| F003      | Display Mode                            | 0:Real Voltage  1:Percentage 0-100.0%  2:50Hz 3:1500         | 0       |
+| F004      | Add Or Sub Num For Knob’s Pulse(Coarse) | 1-50 No Decimal Point Concept (1-50)×10                      | 1       |
+| F005      | Add Or Sub Num For Knob’s Pulse ( Fine) | 1-50 No Decimal Point Concept (1-50)×1                       |         |
+| F006      | -10V Calibration Value                  | -199 — +199 Internal Reference,Please Be Careful             |         |
+| F007      | 0V Calibration Value                    | -199 — +199 Internal Reference,Please Be Careful             |         |
+| F008      | +10V Calibration Value                  | -199 — +199 Internal Reference,Please Be Careful             |         |
+| F009      | Point Mode Num                          | 0: Point Mode Not Use  2-9: Point Num                        | 0       |
+| F101…F109 | Point Output Value                      | range : -10V to 10V You can set as many values as there are points |         |
+
+**2.Current Setting**
+
+| Number    | Description                             | Note                                                         | Default |
+| --------- | --------------------------------------- | ------------------------------------------------------------ | ------- |
+| F001      | Adjust Mode                             | 0:Coarse 1:Fine 2: Point Mode(Need to set F100 > 0)          | 0       |
+| F002      | Output Mode                             | 0:0-20mA 1:4-20mA 2:0-22mA                                   | 0       |
+| F003      | Display Mode                            | 0:Real Voltage 1:Percentage 0-100.0% 2:50HZ                  | 0       |
+| F004      | Add Or Sub Num For Knob’s Pulse(Coarse) | 1-50 No Decimal Point Concept (1-50)×10                      | 1       |
+| F005      | Add Or Sub Num For Knob’s Pulse ( Fine) | 1-50 No Decimal Point Concept (1-50)×1                       | 1       |
+| F008      | +10V Calibration Value                  | -999 — +999 Internal Reference,Please Be Careful             |         |
+| F009      | Point Mode Num                          | 0: Point Mode Not Use 2-9: Point Num                         | 0       |
+| F101…F109 | Point Output Value                      | range : 0-22mA You can set as many values as there are points |         |
+
+**Dimension** 
 
 ### Manual
 
--  [FIT0778manual-EN.pdf](C:\Users\hardware\Documents\REPO-Github\QH-VISG2-Voltage Signal Generator 4-20ma\FIT0778manual-EN.pdf) 
+-  [Manual-datasheet](https://github.com/hwthinker/QH-VISG2-Voltage-Signal-Generator-4-20ma/blob/master/FIT0778manual-EN.pdf) 
