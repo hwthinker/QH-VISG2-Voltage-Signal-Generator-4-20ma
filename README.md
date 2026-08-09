@@ -1,5 +1,22 @@
 # Signal Generator QH-VSIG2 Voltage Signal Generator 4-20maA
 
+<!-- hwthinker-store-links -->
+
+## Beli boardnya & tutorial lengkap
+
+**Board yang dipakai di repo ini tersedia di HwThinker Store:**
+
+- [Voltage Signal Injector Generator 4-20mA Current Transmitter 0-10V PLC](https://hwthinker.com/produk/85b1074e-f1ee-4796-ae35-3b1f0fea717e)
+
+**Tutorial lengkap — langkah bergambar, troubleshooting, dan kode yang sudah diuji:**
+
+- [QH-VISG2 Voltage Signal Generator 4-20mA — Setup Output, Kalibrasi, dan Mode Point](https://hwthinker.com/tutorials/qh-visg2-signal-generator)
+
+Butuh bantuan pemasangan? Sapa kami lewat live chat di [hwthinker.com](https://hwthinker.com) — barang dikirim dari Surabaya, sudah diuji sebelum dikemas.
+
+<!-- /hwthinker-store-links -->
+
+
 ![image-20260407033426368](./assets/image-20260407033426368.png)
 
 ## QH-VISG2-ED DC±10V 0-22mA Signal Generator
